@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="js/main.js "></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>Portafolio</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../practica2/index.html">Práctica 2</a></li>
+                <li><a href="../practica3/index.html">Práctica 3</a></li>
+                <li><a href="../practica4/index.html">Práctica 4</a></li>
+                <li><a href="../practica5/index.html">Práctica 5</a></li>
+                <li><a href="../practica6/index.html">Práctica 6</a></li>
+                <li><a href="../calculadora/index.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="container">
+            <h2>Conversor de Unidades</h2>
+            <div class="form-element">
+                <label for="category">Categoría:</label>
+                <select id="category" onchange="unidades()">
+                    <option value="temperature">Temperatura</option>
+                    <option value="distance">Distancia</option>
+                    <option value="time">Tiempo</option>
+                    <option value="currency">Moneda</option>
+                </select>
+            </div>
+            <div class="form-element">
+                <label for="inputValue">Valor de origen:</label>
+                <input type="number" id="inputValue" value="1">
+            </div>
+            <div class="form-element">
+                <label for="inputUnit">Unidad de origen:</label>
+                <select id="inputUnit"></select>
+            </div>
+            <div class="form-element">
+                <label for="outputUnit">Unidad de destino:</label>
+                <select id="outputUnit"></select>
+            </div>
+            <div class="form-element">
+                <button onclick="convert()" class="btn">Convertir</button>
+            </div>
+            <div class="form-element">
+                <label for="outputValue">Valor de destino:</label>
+                <input type="text" id="outputValue" readonly>
+            </div>
+        </div>
+
+</body>
+</html>

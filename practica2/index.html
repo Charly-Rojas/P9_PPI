@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Página con la temática de una tienda de helados -->
+    <header>
+        <a href="../index.html">
+            <h1>Portafolio</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../practica2/index.html">Práctica 2</a></li>
+                <li><a href="../practica3/index.html">Práctica 3</a></li>
+                <li><a href="../practica4/index.html">Práctica 4</a></li>
+                <li><a href="../practica5/index.html">Práctica 5</a></li>
+                <li><a href="../practica6/index.html">Práctica 6</a></li>
+                <li><a href="../calculadora/index.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="body">
+        <h1>Bienvenido a la tienda de helados</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit quibusdam similique corporis veniam ut labore repudiandae aliquam sint unde cumque molestias consectetur itaque, necessitatibus aperiam, ipsam qui! Aperiam debitis distinctio autem asperiores odio obcaecati rem praesentium laudantium quia facere nihil recusandae ea commodi sed accusamus minus qui, a veritatis.</p>
+        <h2>Helados</h2>
+        <div class="helados">
+            <div class="helados_casa">
+                <h3>Helados de la casa</h3>
+                <ul>
+                    <li>Helado de chocolate</li>
+                    <li>Helado de vainilla</li>
+                    <li>Helado de fresa</li>
+                    <li>Helado de limón</li>
+                    <li>Helado de nuez</li>
+                    <li>Helado de pistache</li>
+                    <li>Helado de mango</li>
+                    <li>Helado de coco</li>
+                    <li>Helado de plátano</li>
+                    <li>Helado de chicle</li>
+                </ul>
+            </div>
+            <div class="helados_estrella">
+                <h3>Los más vendidos</h3>
+                <ol>
+                    <li>Helado de chocolate</li>
+                    <li>Helado de nuez</li>
+                    <li>Helado de limón</li>
+                    <li>Helado de chicle</li>
+                    <li>Helado de cereza</li>
+                    <li>Helado de vainilla</li>
+                    <li>Helado de maracuya</li>
+                    <li>Helado de mamey</li>
+                    <li>Helado de fresa</li>
+                    <li>Helado de pasas</li>
+                </ol>
+            </div>
+            <div class="helados_descriptiva">
+                <h3>Descripción de helados</h3>
+                <dl>
+                    <dt>Helado de chocolate</dt>
+                    <dd>- Un clásico helado de chocolate, cremoso y delicioso.</dd>
+                    <dt>Helado de vainilla</dt>
+                    <dd>- Helado suave y cremoso con sabor a vainilla natural.</dd>
+                    <dt>Helado de fresa</dt>
+                    <dd>- Helado refrescante con trozos de fresa natural.</dd>
+                    <dt>Helado de limón</dt>
+                    <dd>- Helado cítrico y refrescante, perfecto para el verano.</dd>
+                    <dt>Helado de nuez</dt>
+                    <dd>- Helado cremoso con trozos de nuez crujiente.</dd>
+                </dl>
+            </div>
+        </div>
+        <div>
+            <h4>Nuestros sabores</h4>
+        <p>En nuestra tienda, ofrecemos una amplia variedad de sabores para todos los gustos.</p>
+        <h5>Sabores clásicos</h5>
+        <p>Disfruta de nuestros sabores clásicos que nunca pasan de moda.</p>
+        <h6>Promociones</h6>
+        <p>No te pierdas nuestras promociones especiales en helados seleccionados.</p>
+        <div>
+            <h4>Sección de ayuda</h4>
+            <p>Contáctanos para recibir asesoria personalizada</p>
+            <h5>¿Donde encontrarlos?</h5>
+            <p>Nos puedes encontrar en la calle Prados norte 445</p>
+            <h6>Quiero invertir</h6>
+            <p>Por favor, contáctanos en el formulario inferior.<p>
+        </div>
+        </div>
+        <div id="contacto">
+            <h2>Contacto</h2>
+            <p>
+                ¿Quieres saber más sobre nuestros helados? ¡Contáctanos!
+            </p>
+
+                <form action="/submit" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br><br>
+                    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido"><br><br>
+                    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono"><br><br>
+                    
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="0" max="100"><br><br>
+                    
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha"><br><br>
+                    <label for="archivo">Foto de perfil:</label>
+                    <input type="file" id="archivo" name="archivo"><br><br>
+                    
+                    
+                    <label>Sabores favoritos:</label><br>
+                    <input type="checkbox" id="chocolate" name="sabores" value="chocolate">
+                    <label for="chocolate">Chocolate</label><br>
+                    <input type="checkbox" id="vainilla" name="sabores" value="vainilla">
+                    <label for="vainilla">Vainilla</label><br>
+                    <input type="checkbox" id="fresa" name="sabores" value="fresa">
+                    <label for="fresa">Fresa</label><br>
+                    <input type="checkbox" id="limon" name="sabores" value="limon">
+                    <label for="limon">Limón</label><br><br>
+                    
+                    <label>Género:</label><br>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">Otro</label><br>
+                    <input type="radio" id="prefiero_no_decirlo" name="genero" value="prefiero_no_decirlo">
+                    <label for="prefiero_no_decirlo">Prefiero no decirlo</label><br><br>
+                    
+                    
+                    <label for="color">Color de tu taza de regalo:</label>
+                    <input type="color" id="color" name="color"><br><br>
+                    
+                    <label for="rango">Nivel de satisfacción: <span id="satisfaccion">5</span></label>
+                    <input type="range" id="rango" name="rango" min="0" max="5" value="5" onchange="document.getElementById('satisfaccion').innerText = this.value;"><br><br>
+                    
+                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <label for="acepto">Acepto los <a href="#">términos y condiciones</a>.</label><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+        </div>
+    </div>
+</body>
+</html>

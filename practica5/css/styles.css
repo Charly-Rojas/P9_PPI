@@ -1,0 +1,37 @@
+form {
+    color: #000;
+    border: 1px solid white;
+    background-color: #ffffff;
+    padding: 1em;
+    box-shadow: 0 0 0.2em 0.1em #00000015;
+    border-radius: 0.3em;
+    margin: 1em 0;
+}
+
+#medicamentos{
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+#medicamentos th,#medicamentos td{
+    padding: 0.2em 0.3em;
+    border: #c0c0c0 1px solid;
+    text-align: center;
+}
+
+#medicamentos th{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}   
+
+#medicamentos tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+#medicamentos tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+#medicamentos tr:hover td {
+    background-color: #cdf1cd;
+}

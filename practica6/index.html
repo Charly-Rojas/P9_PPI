@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 6: HTML5 Audio/Video, Youtube y GoogleMaps</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v22.0"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>Portafolio</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../practica2/index.html">Práctica 2</a></li>
+                <li><a href="../practica3/index.html">Práctica 3</a></li>
+                <li><a href="../practica4/index.html">Práctica 4</a></li>
+                <li><a href="../practica5/index.html">Práctica 5</a></li>
+                <li><a href="../practica6/index.html">Práctica 6</a></li>
+                <li><a href="../calculadora/index.html">Calculadora</a></li>
+            </ul>
+        </nav>
+        <div class="subnav">
+                <a href="#audio">Audio</a>
+                <a href="#video">Video</a>
+                <a href="#youtube">Youtube</a>
+                <a href="#twitter">Twitter</a>
+                <a href="#facebook">Facebook</a>
+                <a href="#maps">Google Maps</a>
+        </div>
+    </header>
+    <div class="container" id="audio">
+        <h2>Audio</h2>
+        <audio src="src/Tux.mp3" controls></audio>
+    </div>
+    <div class="container" id="video">
+        <h2>Video</h2>
+        <video src="src/Tux.mp4" controls></video>
+    </div>
+    <div class="container" id="youtube">
+        <h2>YouTube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2ACTAxI-g9o?si=-yhbhXHXh-t9vqPu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="container" id="twitter">
+        <h2>Twitter</h2>
+        <a class="twitter-timeline" data-height="300" href="https://twitter.com/XDevelopers?ref_src=twsrc%5Etfw">Tweets by XDevelopers</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+    </div>
+    <div class="container" id="facebook">
+        <h2>Facebook</h2>
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcisconetworkingacademy%2Fposts%2Fpfbid0pGEE8sARkRy6T5FRjrMt8ryw6ffdLvJqHWbnQR1xP6HtmhL1R6NSJmpzD2pDhJZl&show_text=true&width=500" width="500" height="653" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>    
+    </div>
+    <div class="container" id="maps">
+        <h2>Google Maps</h2>
+        <p>Para agregar un mapa con geolocalización es necesario seguir los siguientes pasos</p>
+        <ol>
+            <li>Ir a la <a href="https://console.cloud.google.com/google/maps-apis/overview">consola de Google Maps</a></li>
+            <li>Crear un nuevo proyecto</li>
+            <li>Obtener la API Key</li>
+            <li>Usar la API Key en el iframe</li>
+        </ol>
+        <p>A continuación podemos ver un frame clasico de Google Maps sin las funcionalidades extendidas ya que la plataforma solicita registrarnos con elementos como el RFC y una tarjeta de crédito/débito.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d21730448.031519793!2d23.190026179436135!3d39.81285482843755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDI0JzEyLjIiTiAywrAxMCcyNi41IkU!5e0!3m2!1sen!2smx!4v1740970229706!5m2!1sen!2smx" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>  
+    <div class="container" id="referencias">
+        <h2>Referencias</h2>
+        <ol>
+            <li>Victor Bart - RETRO Machines. (2023, 29 abril). TUX taking a bath! [Vídeo]. YouTube. <a href="https://www.youtube.com/watch?v=2ACTAxI-g9o">https://www.youtube.com/watch?v=2ACTAxI-g9o</a></li>
+        </ol>
+    </div>
+</body>
+</html>

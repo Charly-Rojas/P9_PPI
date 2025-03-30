@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>Portafolio</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../practica2/index.html">Práctica 2</a></li>
+                <li><a href="../practica3/index.html">Práctica 3</a></li>
+                <li><a href="../practica4/index.html">Práctica 4</a></li>
+                <li><a href="../practica5/index.html">Práctica 5</a></li>
+                <li><a href="../practica6/index.html">Práctica 6</a></li>
+                <li><a href="../calculadora/index.html">Calculadora</a></li>
+            </ul>
+        </nav>
+        <div class="subnav">
+            <a href="#ejercicio1">Ejercicio 1</a>
+            <a href="#ejercicio2">Ejercicio 2</a>
+            <a href="#ejercicio3">Ejercicio 3</a>
+        </div>
+    </header>
+    <div class="main">
+        <div id="ejercicio1" class="contenedor">
+            <!-- 
+            1. Desarrollar un programa en JS que reciba como parámetro una calificación numérica a través de un elemento <input> tipo número dentro de un formulario HTML. El archivo JS debe tener una función que haga la evaluación de acuerdo a la siguiente tabla:
+            Rango de calificaciones 	Equivalencia
+            [0,6) 	                    NA
+            [6,7.5) 	                S
+            [7.5,9) 	                B
+            [9,10) 	                    MB
+            10 	                        LAP
+            Si el usuario ingresa una calificación menor a 0 o mayor a 10 se deberá mandar un mensaje de error. El resultado deberá escribirse en un párrafo.
+            -->
+            <h2>Ejercicio 1</h2>
+            <div class="contenido">
+                <form id="formulario1">
+                    <label for="calificacion">Calificación:</label>
+                    <input type="number" id="calificacion" name="calificacion">
+                    <button type="button" onclick="evaluacion()">Evaluar</button>
+                </form>
+                <p id="resultado" class="resultado"></p>
+            </div>
+        </div>
+
+
+        <!-- 
+        2. Desarrollar un script en JavaScript que reciba un número a través de un <input> tipo número dentro de un formulario HTML y calcule el factorial (de forma recursiva) de ese número.
+
+        Considere que si n es positivo el factorial es n! = n*(n-1)!, si n es cero por definición el factorial es 1 y si n es negativo el factorial no está definido.
+
+        Escriba el resultado en un párrafo.
+        -->
+        <div id="ejercicio2" class="contenedor">
+            <h2>Ejercicio 2</h2>
+            <div class="contenido">
+                <form id="formulario2">
+                    <label for="numero">Número:</label>
+                    <input type="number" id="numero" name="numero">
+                    <button type="button" onclick="calcularFactorial()">Calcular factorial</button>
+                </form>
+                <p id="resultado2" class="resultado"></p>
+            </div>
+        </div>
+        
+        
+        <!-- 
+        3. Desarrolle un programa en JavaScript que reciba información de un formulario de HTML. El formulario deberá tener las siguientes entradas y el tipo de <input> indicado.
+            Nombre (text)
+            Correo (email)
+            Edad (number)
+            Género (radio)
+            Fecha de nacimiento (date)
+            Color favorito (color)
+
+        Imprimir en un párrafo toda la información recibida de formulario.
+
+        -->
+        <div id="ejercicio3" class="contenedor">
+            <h2>Ejercicio 3</h2>
+            <div class="contenido">
+                <form id="formulario3">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad">
+                    <label for="genero">Género:</label>
+                    <span>
+                        <input type="radio" id="genero" name="genero" value="masculino">Masculino
+                    </span>
+                    <span>
+                        <input type="radio" id="genero" name="genero" value="femenino">Femenino
+                    </span>
+                    <span>
+                        <input type="radio" id="genero" name="genero" value="otro">Otro
+                    </span>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+                    <label for="color">Color favorito:</label>
+                    <input type="color" id="color" name="color">
+                    <button type="button" onclick="imprimirFormulario()">Imprimir datos</button>
+                </form>
+                <p id="resultado3" class="resultado"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

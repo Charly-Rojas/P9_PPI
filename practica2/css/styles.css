@@ -1,0 +1,23 @@
+.helados {
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr;
+    gap: 20px;
+
+}
+
+.helados div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#contacto {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+}
+.helados ul, .helados ol, .helados dl {
+    margin-left: 1.2em;
+    padding: 0;
+    
+}

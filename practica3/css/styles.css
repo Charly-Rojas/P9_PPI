@@ -1,0 +1,36 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 1em;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: #1089cf;
+    color: white;
+}
+
+tr:nth-child(3n+2) {
+    background-color: #e4e4e4;
+}
+
+tr:nth-child(3n+3) {
+    background-color: #c7c6c6;
+}

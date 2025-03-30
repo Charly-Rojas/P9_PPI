@@ -1,0 +1,16 @@
+Desarrolle una página web con estilo CSS que tenga enlaces hacia tres archivos HTML. Cada archivo debe contener una tabla de acuerdo a los puntos mencionados a continuación:
+
+    Una tabla con estilo básico que tenga lo siguiente.
+
+        Tamaño: Al menos 10 renglones y 4 columnas.
+
+        El encabezado debe tener estilo contrastante con respecto al contenido.
+
+        En el contenido debe haber tres tipos diferentes de estilo alternados por renglón.
+        Utilice una hoja de estilos interna
+    Realizar una tabla que tenga estilo similar a la siguiente. Utilice una hoja de estilos externa.
+    Un archivo HTML que tenga tres imágenes de su elección. Descargue las imágenes o utilice una referencia externa. Modifique las dimensiones del desplegado de la imagen sin ocasionar distorsión. Meta las imágenes en un contenedor div y centrelas en la pantalla.
+
+Elija alguna temática de su agrado para las tablas e imágenes. Utilice una hoja externa de estilos CSS.
+
+Agregue una navegación entre sus archivos HTML empleando enlaces con rutas relativas. Añada también un par de enlaces hacia dos sitios externos de su elección.

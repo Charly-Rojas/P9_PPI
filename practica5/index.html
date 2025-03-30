@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 5. JavaScript 2</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>Portafolio</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../practica2/index.html">Práctica 2</a></li>
+                <li><a href="../practica3/index.html">Práctica 3</a></li>
+                <li><a href="../practica4/index.html">Práctica 4</a></li>
+                <li><a href="../practica5/index.html">Práctica 5</a></li>
+                <li><a href="../practica6/index.html">Práctica 6</a></li>
+                <li><a href="../calculadora/index.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Práctica 5. JavaScript 2</h1>
+    <p>Esta es una página para registrar medicamentos. Complete el formulario a continuación con la información del medicamento.</p>
+    
+    <form action="">
+        <label for="nombre">Nombre del medicamento:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="email">Correo del fabricante:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="presentacion">Presentaciones disponibles:</label><br>
+        <input type="checkbox" id="tabletas" name="presentacion" value="tabletas">
+        <label for="tabletas">Tabletas</label><br>
+        <input type="checkbox" id="jarabe" name="presentacion" value="jarabe">
+        <label for="jarabe">Jarabe</label><br>
+        <input type="checkbox" id="inyeccion" name="presentacion" value="inyeccion">
+        <label for="inyeccion">Inyección</label><br><br>
+
+        <label for="tipo">Tipo de medicamento:</label><br>
+        <input type="radio" id="generico" name="tipo" value="generico">
+        <label for="generico">Genérico</label><br>
+        <input type="radio" id="patente" name="tipo" value="patente">
+        <label for="patente">De patente</label><br>
+        <input type="radio" id="herbolario" name="tipo" value="herbolario">
+        <label for="herbolario">Herbolario</label><br><br>
+
+        <label for="fecha">Fecha de caducidad:</label>
+        <input type="datetime-local" id="fecha" name="fecha"><br><br>
+
+        <label for="color">Color de la presentación:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="dosis">Dosis (mg):</label>
+        <input type="range" id="dosis" name="dosis" min="0" max="1000"><br><br>
+        <button type="button" onclick="registrar()">Registrar</button>
+    </form>
+
+    <table id="medicamentos">
+        <thead>
+            <tr>
+                <th>Nombre del medicamento</th>
+                <th>Correo del fabricante</th>
+                <th>Presentaciones disponibles</th>
+                <th>Tipo de medicamento</th>
+                <th>Fecha de caducidad</th>
+                <th>Color de la presentación</th>
+                <th>Dosis (mg)</th>
+            </tr>
+        </thead>
+        <tbody id="medicamentos-body">
+        </tbody>
+    </table>
+</body>
+
+
+</html>

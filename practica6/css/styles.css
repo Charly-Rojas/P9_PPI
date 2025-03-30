@@ -1,0 +1,41 @@
+ol, ul{
+    margin: 0.8em;
+}
+
+.container {
+    color: #000;
+    border: 1px solid white;
+    background-color: #ffffff;
+    padding: 1.5em;
+    box-shadow: 0 0 0.2em 0.1em #00000015;
+    border-radius: 0.3em;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+audio{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+}
+video{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+iframe{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+}
+.twitter-timeline{
+    display: flex;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+}

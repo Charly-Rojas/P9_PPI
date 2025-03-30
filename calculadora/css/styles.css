@@ -1,0 +1,11 @@
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form-element input, .form-element select{
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+}

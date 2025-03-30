@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2 - Práctica 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>Portafolio</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../practica2/index.html">Práctica 2</a></li>
+                <li><a href="../practica3/index.html">Práctica 3</a></li>
+                <li><a href="../practica4/index.html">Práctica 4</a></li>
+                <li><a href="../practica5/index.html">Práctica 5</a></li>
+                <li><a href="../practica6/index.html">Práctica 6</a></li>
+                <li><a href="../calculadora/index.html">Calculadora</a></li>
+            </ul>
+        </nav>
+        <div class="subnav">
+            <a href="index.html">Archivo 1</a>
+            <a href="file2.html">Archivo 2</a>
+            <a href="file3.html">Archivo 3</a>
+        </div>
+    </header>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>i</th>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>OS</th>
+                    <th>Screen Size</th>
+                    <th>Battery Life</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example rows -->
+                <tr id="iphone-13">
+                    <td>1</td>
+                    <td>Apple</td>
+                    <td>iPhone 13</td>
+                    <td>iOS</td>
+                    <td>6.1"</td>
+                    <td>20 hours</td>
+                    <td>$799</td>
+                </tr>
+                <tr id="galaxy-s21">
+                    <td>2</td>
+                    <td>Samsung</td>
+                    <td>Galaxy S21</td>
+                    <td>Android</td>
+                    <td>6.2"</td>
+                    <td>18 hours</td>
+                    <td>$699</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Google</td>
+                    <td>Pixel 5</td>
+                    <td>Android</td>
+                    <td>6.0"</td>
+                    <td>17 hours</td>
+                    <td>$699</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>OnePlus</td>
+                    <td>8T</td>
+                    <td>Android</td>
+                    <td>6.55"</td>
+                    <td>15 hours</td>
+                    <td>$749</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Huawei</td>
+                    <td>P40 Pro</td>
+                    <td>Android</td>
+                    <td>6.58"</td>
+                    <td>16 hours</td>
+                    <td>$899</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Xiaomi</td>
+                    <td>Mi 11</td>
+                    <td>Android</td>
+                    <td>6.81"</td>
+                    <td>17 hours</td>
+                    <td>$749</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Oppo</td>
+                    <td>Find X3 Pro</td>
+                    <td>Android</td>
+                    <td>6.7"</td>
+                    <td>18 hours</td>
+                    <td>$1,149</td>
+                </tr>
+                <tr id="xperia-z3">
+                    <td>8</td>
+                    <td>Sony</td>
+                    <td>Xperia Z3</td>
+                    <td>Android</td>
+                    <td>6.5"</td>
+                    <td>21 hours</td>
+                    <td>$199</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>LG</td>
+                    <td>Wing</td>
+                    <td>Android</td>
+                    <td>6.8"</td>
+                    <td>19 hours</td>
+                    <td>$999</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Motorola</td>
+                    <td>Edge+</td>
+                    <td>Android</td>
+                    <td>6.7"</td>
+                    <td>18 hours</td>
+                    <td>$999</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Nokia</td>
+                    <td>8.3 5G</td>
+                    <td>Android</td>
+                    <td>6.81"</td>
+                    <td>16 hours</td>
+                    <td>$699</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Asus</td>
+                    <td>ROG Phone 5</td>
+                    <td>Android</td>
+                    <td>6.78"</td>
+                    <td>20 hours</td>
+                    <td>$999</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Realme</td>
+                    <td>GT</td>
+                    <td>Android</td>
+                    <td>6.43"</td>
+                    <td>17 hours</td>
+                    <td>$599</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Vivo</td>
+                    <td>X60 Pro</td>
+                    <td>Android</td>
+                    <td>6.56"</td>
+                    <td>18 hours</td>
+                    <td>$799</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Lenovo</td>
+                    <td>Legion Phone Duel</td>
+                    <td>Android</td>
+                    <td>6.65"</td>
+                    <td>19 hours</td>
+                    <td>$899</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>ZTE</td>
+                    <td>Axon 30 Ultra</td>
+                    <td>Android</td>
+                    <td>6.67"</td>
+                    <td>18 hours</td>
+                    <td>$749</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Meizu</td>
+                    <td>18 Pro</td>
+                    <td>Android</td>
+                    <td>6.7"</td>
+                    <td>17 hours</td>
+                    <td>$799</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Honor</td>
+                    <td>50 Pro</td>
+                    <td>Android</td>
+                    <td>6.72"</td>
+                    <td>18 hours</td>
+                    <td>$699</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Alcatel</td>
+                    <td>3L</td>
+                    <td>Android</td>
+                    <td>6.52"</td>
+                    <td>15 hours</td>
+                    <td>$199</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Micromax</td>
+                    <td>IN Note 1</td>
+                    <td>Android</td>
+                    <td>6.67"</td>
+                    <td>16 hours</td>
+                    <td>$249</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Infinix</td>
+                    <td>Zero 8</td>
+                    <td>Android</td>
+                    <td>6.85"</td>
+                    <td>17 hours</td>
+                    <td>$299</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Coolpad</td>
+                    <td>Cool 6</td>
+                    <td>Android</td>
+                    <td>6.53"</td>
+                    <td>15 hours</td>
+                    <td>$199</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>BlackBerry</td>
+                    <td>Key2</td>
+                    <td>Android</td>
+                    <td>4.5"</td>
+                    <td>20 hours</td>
+                    <td>$649</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>Fairphone</td>
+                    <td>3+</td>
+                    <td>Android</td>
+                    <td>5.65"</td>
+                    <td>13 hours</td>
+                    <td>$499</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Cat</td>
+                    <td>S62 Pro</td>
+                    <td>Android</td>
+                    <td>5.7"</td>
+                    <td>12 hours</td>
+                    <td>$649</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Redmi</td>
+                    <td>Note 10 Pro</td>
+                    <td>Android</td>
+                    <td>6.67"</td>
+                    <td>17 hours</td>
+                    <td>$279</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>Poco</td>
+                    <td>X3 Pro</td>
+                    <td>Android</td>
+                    <td>6.67"</td>
+                    <td>16 hours</td>
+                    <td>$249</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
