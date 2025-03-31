@@ -25,9 +25,11 @@ En esta sección podrá encontrar tres páginas con donde se practica el uso de 
 | 1 | Apple | iPhone 13 | iOS |	6.1"   | 20 hours     |	$799  |
 ```
 - Archivo 3: Tabla de precios con enlaces e imágenes sobre teléfonos celulares
+```markdown
 | Marca     | Modelo        | Precio    | Especificaciones  |
 |-----------|---------------|-----------|-------------------|
 | Samsung   | Galaxy S21    | $799      | Ver               |
+```
 
 ## Práctica 4
 - Ejercicio 1: Desarrollar un programa donde se clasifique una calificación de acuerdo a la siguiente tabla:
