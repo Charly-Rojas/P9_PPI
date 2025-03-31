@@ -13,15 +13,17 @@ El objetivo de esta página fue familiarizarse con la estructura de HTML y los f
 ## Práctica 3
 En esta sección podrá encontrar tres páginas con donde se practica el uso de tablas y enlaces.
 - Archivo 1: Tabla de precios sobre teléfonos celulares
+```markdown
 | Marca             | Modelo    | Precio    | Lanzamiento   |
 |-------------------|-----------|-----------|---------------|
 | Apple             | iPhone 13 | $799      | 2021          |
-
+```
 - Archivo 2 : Tabla de especificaciones sobre teléfonos celulares
+```markdown
 | i | Brand | Model | OS | Screen Size | Battery Life | Price |
 |---|-------|-------|----|-------------|--------------|-------|
 | 1 | Apple | iPhone 13 | iOS |	6.1"   | 20 hours     |	$799  |
-
+```
 - Archivo 3: Tabla de precios con enlaces e imágenes sobre teléfonos celulares
 | Marca     | Modelo        | Precio    | Especificaciones  |
 |-----------|---------------|-----------|-------------------|
@@ -29,6 +31,7 @@ En esta sección podrá encontrar tres páginas con donde se practica el uso de 
 
 ## Práctica 4
 - Ejercicio 1: Desarrollar un programa donde se clasifique una calificación de acuerdo a la siguiente tabla:
+```markdown
 | Rango de calificaciones  | Equivalencia  |
 |--------------------------|---------------|
 | [0,6)                    | NA            |
@@ -36,6 +39,7 @@ En esta sección podrá encontrar tres páginas con donde se practica el uso de 
 | [7.5,9)                  | B             |
 | [9,10)                   | MB            |
 | 10                       | LAP           |
+```
 - Ejercicio 2: Desarrollar un script en JavaScript que reciba un número a través de un `input` tipo número dentro de un formulario HTML y calcule el factorial (de forma recursiva) de ese número.
 - Ejercicio 3: Desarrolle un programa en JavaScript que reciba información de un formulario de HTML. El formulario deberá tener las siguientes entradas y el tipo de `input` indicado.
 1. Nombre (text)  
